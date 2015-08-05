@@ -67,7 +67,7 @@ Location: https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsettings
 | Location | 通知客户端新的资源位置 | Location: http://www.github.com/login |
 | Content-Type | 响应数据的类型 | Content-Type:text/html; charset=UTF-8 |
 
-还有很多响应头部，但是跟请求头部一样，没有必要去背下来。 响应头部对返回的数据有着微妙的影响，有些情况下，它们巧妙的用于工作流程中（比如，你的浏览器自动跟进 ```Location``` 响应头部指向的 URL ）。你需要理解的仅仅是，响应头部包含了一些关于返回的响应数据的额外信息（译注：描述数据的信息/数据，通常被称为为元数据，meta-data or meta information ）。
+还有很多响应头部，但是跟请求头部一样，没有必要去背下来。 响应头部对返回的数据有着微妙的影响，有些情况下，它们巧妙的用于工作流程中（比如，你的浏览器自动跟进 ```Location``` 响应头部指向的 URL ）。你需要理解的仅仅是，响应头部包含了一些关于返回的响应数据的额外信息（译注：描述数据的信息/数据，通常被称为元数据，meta-data or meta information ）。
 
 ### 小结
 在本章，我们讨论了 HTTP 响应的组成部分。我们也了解了如何使用审查器去查看 HTTP 响应的头部。尽管我们只是揭开了 HTTP 协议面纱的一角，我希望这些知识在你需要的时候能给你 [深入研究 HTTP](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) 的能力。
